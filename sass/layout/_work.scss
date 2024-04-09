@@ -1,0 +1,60 @@
+.work-title {
+    margin-bottom: 50px;
+
+}
+
+.work-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.work-list-item {
+    position: relative;
+
+}
+
+.work-item-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100%;
+    padding: 27px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+}
+
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+
+    letter-spacing: 1.08px;
+}
+
+.work-name {
+    color: #212121;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}

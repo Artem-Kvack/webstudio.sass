@@ -1,0 +1,47 @@
+.hero-section {
+    background-color: #212121;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-section {
+
+    outline: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:
+        linear-gradient(to right,
+            rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg_hero_img.jpg")
+}
+
+.hero {
+    margin-bottom: 30px;
+    background-image: url(./images/ImgOverlay.png);
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    display: block;
+    width: 216px;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    background-color: #2196F3;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+
+    letter-spacing: 0.96px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #1581d9;
+}
