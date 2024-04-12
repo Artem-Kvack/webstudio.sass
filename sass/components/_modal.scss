@@ -9,10 +9,7 @@
     transition: opacity 500ms;
 }
 
-.modal {
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform 1000ms;
-}
+
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0);
@@ -199,4 +196,6 @@
     transform: translate(-50%, -50%);
     width: 528px;
     height: 581px;
+    transform: translate(-50%, -50%) scale(1);
+        transition: transform 1000ms;
 }
