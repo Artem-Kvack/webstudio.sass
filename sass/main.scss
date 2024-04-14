@@ -1,7 +1,7 @@
 @import "utils/vars";          @import "components/logo";
-@import "base/common";
-@import "base/container";
-@import "layout/header";
+@import "base/common";           @import "components/btn";
+@import "base/container";        @import "utils/mixtins";
+@import "layout/header";          @import "utils/placeholder";
 @import "layout/hero";
 @import "components/modal";
 @import "layout/advantages";
