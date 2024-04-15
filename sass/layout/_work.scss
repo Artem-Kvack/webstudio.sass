@@ -1,21 +1,21 @@
-.work-title {
+.work__title {
     margin-bottom: 50px;
 
 }
 
-.work-list {
+.work__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 
 }
 
-.work-list-item {
+.work__list-item {
     position: relative;
 
 }
 
-.work-item-text {
+.work__item-text {
     position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);

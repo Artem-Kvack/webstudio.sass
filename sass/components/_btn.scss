@@ -15,7 +15,7 @@
     /* 187.5% */
     letter-spacing: 0.96px;
 }
-.hero-btn {
+.section__hero-btn {
     display: block;
     width: 216px;
     height: 50px;
@@ -29,8 +29,8 @@
     letter-spacing: 0.96px;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.section__hero-btn:hover,
+.section__hero-btn:focus {
     background-color: #1581d9;
 }
 .filter-btn {

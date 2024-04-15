@@ -1,10 +1,10 @@
-.clients-logo-title {
+.clients__logo-title {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.clients-logo-link:hover,
-.clients-logo-link:focus {
+.clients__logo-link:hover,
+.clients__logo-link:focus {
 
     border-color: #2196F3;
 
@@ -16,23 +16,23 @@
     padding-bottom: 94px;
 }
 
-.client-list {
+.client__list {
     display: flex;
     gap: 30px;
 }
 
-.icon-client-logo {
+.clients__icon-logo {
     fill: #757575;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-logo-link:hover .icon-client-logo,
-.clients-logo-link:focus .icon-client-logo {
+.clients__logo-link:hover .clients__icon-logo,
+.clients__logo-link:focus .clients__icon-logo {
     fill: #2196F3;
 
 }
 
-.clients-logo-link {
+.clients__logo-link {
     padding: 16px 32px;
 
     border-radius: 1px;
