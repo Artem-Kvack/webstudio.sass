@@ -55,20 +55,20 @@
 
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .contact-link:hover .header-logo-icon,
 
 .contact-link:focus .header-logo-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 
 
 .nav-link {
     font-family: Roboto;
     font-size: 14px;
-    color: var(--main-color);
+    color: $main-color;
     text-decoration: none;
     letter-spacing: 0.28px;
     position: relative;
@@ -77,7 +77,7 @@
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .current::after {
@@ -86,7 +86,7 @@
     width: 105%;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     position: absolute;
     bottom: 0;
 }
@@ -95,7 +95,7 @@
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    color: var(--add-color);
+    color: $add-color;
     letter-spacing: 0.28px;
     text-decoration: none;
 }
