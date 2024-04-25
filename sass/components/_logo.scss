@@ -1,5 +1,5 @@
 .footer-logo .logo-acent {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .footer-logo {
     color: white;
@@ -7,7 +7,7 @@
 .logo {
     font-family: Raleway;
     font-size: 26px;
-    color: var(--accent-color);
+    color: $accent-color;
     letter-spacing: 0.78px;
     margin-right: 93px;
 }
@@ -40,6 +40,7 @@
 }
 
 .svg-logo-link {
+    @include flex(center);
     display: flex;
     align-items: center;
     justify-content: center;

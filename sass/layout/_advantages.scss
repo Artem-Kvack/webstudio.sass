@@ -3,6 +3,7 @@
 }
 
 .advantages__list {
+    @include flex(30px);
     display: flex;
     gap: 30px;
 }

@@ -9,12 +9,14 @@
 }
 
 .filter-list {
+    @include flex(8px, center);
     display: flex;
     gap: 8px;
     justify-content: center;
 }
 
 .market-list {
+    @include flex(30px);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -24,6 +26,7 @@
 .market-list-item {
     position: relative;
     overflow: hidden;
+    @include border(none, 1px);
     border-color: #EEE;
     border-style: solid;
     border-width: 1px;
@@ -103,6 +106,7 @@
     letter-spacing: 0.48px;
 }
 .filter-btn {
+    @include border(none);
     color: #212121;
     padding: 6px 22px;
     background: #F5F4FA;

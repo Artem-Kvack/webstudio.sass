@@ -22,10 +22,11 @@
     margin: 0 auto;
     color: white;
     background-color: #2196F3;
+    @include border(none);
     border: none;
     font-family: Roboto;
     font-size: 16px;
-
+    
     letter-spacing: 0.96px;
 }
 

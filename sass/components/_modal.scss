@@ -99,6 +99,7 @@
 .modal-button {
     display: block;
     margin: 0 auto;
+    @include border(none);
     border-radius: 4px;
     background: #188CE8;
     border: none;

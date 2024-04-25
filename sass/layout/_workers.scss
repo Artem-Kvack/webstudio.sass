@@ -25,6 +25,7 @@
 }
 
 .workers__soc-list {
+    @include flex(10px, center);
     justify-content: center;
     gap: 10px;
 }
@@ -47,12 +48,14 @@
 
 
 .workers__list {
+    @include flex(30px, center);
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .workers__soc-list {
+    @include flex(14px);
     display: flex;
     gap: 14px;
     margin-top: 16px;
