@@ -6,7 +6,7 @@
 .clients__logo-link:hover,
 .clients__logo-link:focus {
 
-    border-color: #2196F3;
+    border-color: $accent-color;
 
 }
 
@@ -22,23 +22,20 @@
 }
 
 .clients__icon-logo {
-    fill: #757575;
+    fill: $add-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__logo-link:hover .clients__icon-logo,
 .clients__logo-link:focus .clients__icon-logo {
-    fill: #2196F3;
+    fill: $accent-color;
 
 }
 
 .clients__logo-link {
     padding: 16px 32px;
-    @include border(0px, 1px);
+    @include border(1px, $add-color );
     border-radius: 1px;
-    border-color: #757575;
-    border-width: 1px;
-    border-style: solid;
     display: block;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -10,7 +10,7 @@
 .advantages-item-title {
     padding-bottom: 15px;
 
-    color: #212121;
+    color: $main-color;
     text-transform: capitalize;
     font-family: Roboto;
     font-size: 14px;
@@ -75,12 +75,12 @@
 
 
 .advantages__list-title {
-    color: #212121;
+    color: $main-color;
     text-transform: lowercase;
 }
 
 .advantages__item-text {
-    color: #757575;
+    color:$add-color;
 
     font-family: Roboto;
     font-size: 14px;

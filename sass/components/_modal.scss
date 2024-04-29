@@ -17,7 +17,7 @@
 
 .modal-text {
 
-    color: #212121;
+    color: $add-color;
     margin-bottom: 12px;
     text-align: center;
     font-family: Roboto;
@@ -124,7 +124,7 @@
 }
 
 .modal-name {
-    color: #757575;
+    color: $add-color;
 
     font-family: Roboto;
     font-size: 12px;

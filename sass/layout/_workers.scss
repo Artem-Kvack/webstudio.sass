@@ -11,7 +11,7 @@
 }
 
 .workers__soc-icon {
-    fill: #757575;
+    fill: $add-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -35,7 +35,7 @@
 }
 
 .workers__soc-icon:hover {
-    fill: #2196F3;
+    fill: $accent-color;
 }
 
 .workers__soc-link {
@@ -67,7 +67,7 @@
 }
 
 .workers__title {
-    color: #212121;
+    color: $main-color;
     margin-bottom: 50px;
     text-align: center;
     font-family: Roboto;

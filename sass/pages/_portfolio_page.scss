@@ -15,20 +15,15 @@
 
 .market-list {
     @include flex(30px, row, center);
-
-    flex-wrap: wrap;
-  
-    margin-top: 50px;
+ flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .market-list-item {
     position: relative;
     overflow: hidden;
-    @include border(0px, 1px);
-    border-color: #EEE;
-    border-style: solid;
-    border-width: 1px;
-    flex-basis: calc((100% - 60px)/3)
+    @include border(1px, #EEE);
+   flex-basis: calc((100% - 60px)/3);
 }
 
 .project-overlay {
@@ -93,7 +88,7 @@
 .market-text {
 
     width: 322px;
-    color: #757575;
+    color: $add-color;
 
     font-family: Roboto;
     font-size: 16px;
@@ -105,7 +100,7 @@
 }
 .filter-btn {
    
-    color: #212121;
+    color: $main-color;
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
