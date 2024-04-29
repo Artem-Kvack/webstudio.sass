@@ -25,9 +25,8 @@
 }
 
 .workers__soc-list {
-    @include flex(10px, center);
-    justify-content: center;
-    gap: 10px;
+    @include flex(10px, row, center);
+    
 }
 
 .workers__soc-link:hover .worker-soc-icon,
@@ -48,16 +47,13 @@
 
 
 .workers__list {
-    @include flex(30px, center);
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    @include flex(30px, row, center);
+  
 }
 
 .workers__soc-list {
-    @include flex(14px);
-    display: flex;
-    gap: 14px;
+    @include flex(14px, row, center);
+    
     margin-top: 16px;
 }
 

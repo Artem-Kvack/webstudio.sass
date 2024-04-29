@@ -4,10 +4,8 @@
 }
 
 .work__list {
-    @include flex(30px, center);
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    @include flex(30px, row, center);
+   
 
 }
 

@@ -3,7 +3,7 @@
     height: 50px;
     color: #FFF;
     border-radius: 4px;
-    background: #2196F3;
+    background: $accent-color;
 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     text-align: center;
@@ -21,8 +21,8 @@
     height: 50px;
     margin: 0 auto;
     color: white;
-    background-color: #2196F3;
-    @include border(none);
+    background-color: $accent-color;
+   
     border: none;
     font-family: Roboto;
     font-size: 16px;

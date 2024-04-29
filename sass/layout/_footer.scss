@@ -5,9 +5,8 @@
 }
 
 .footer .container {
-    @include flex(70px);
-    display: flex;
-    gap: 70px;
+    @include flex(70px, row, center);
+    
 }
 
 .svg-address-title {
@@ -30,7 +29,7 @@
 
 
 .svg-address-item {
-    @include border(none, 3px);
+    @include border(0px, 3px);
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -54,14 +53,13 @@
 }
 
 .svg-address-list {
-    @include flex(10px);
-    display: flex;
-    gap: 10px;
+    @include flex(10px, row, center);
+  
 
 }
 
 .footer-address {
-    @include flex(column);
+    @include flex(0px, column, center);
     display: flex;
     flex-direction: column;
     font-style: normal;
