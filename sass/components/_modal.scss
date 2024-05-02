@@ -199,4 +199,18 @@
     height: 581px;
     transform: translate(-50%, -50%) scale(1);
         transition: transform 1000ms;
+        @media screen and (min-width: 450px) {
+             min-width: 450px;
+        }
+       
+          @media screen and (min-width: 528px) {
+             width: 528px;
+        }
+         @media screen and (min-height: 609px) {
+             min-width: 609px;
+        }
+         @media screen and (min-height: 450px) {
+             min-width: 450px;
+        }
+
 }
