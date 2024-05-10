@@ -2,11 +2,29 @@
     background-color: $main-color;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 480px) {
+    min-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+     @include flex(0px, row, center);
+  }
 }
 
 .footer .container {
     @include flex(70px, row, center);
-    
+        @media screen and (min-width: 480px) {
+    min-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+  }
 }
 
 .svg-address-title {
@@ -88,6 +106,15 @@
     border-radius: 4px;
     background: rgba(33, 150, 243, 0.00);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        @media screen and (min-width: 480px) {
+    min-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+  }
 
 }
 

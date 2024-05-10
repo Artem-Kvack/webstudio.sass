@@ -5,7 +5,7 @@
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-
+ @include flex(0px, row, center);
 
     letter-spacing: 0.48px;
 }
