@@ -1,12 +1,26 @@
 .advantages {
+    padding-top: 60px;
+      @media screen and (min-width: 1200px) {
     padding-top: 94px;
+  }
 }
 
 .advantages__list {
-    @include flex(30px,row, center);
-  
+    @include flex(30px,column, center);
+       @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
-
+.advantages__list-item {
+    flex-basis: 100%;
+       @media screen and (min-width: 768px) {
+    @include flex-basis(30px, 2);
+  }
+     @media screen and (min-width: 1200px) {
+    @include flex-basis(30px, 4);
+  }
+}
 .advantages-item-title {
     padding-bottom: 15px;
 

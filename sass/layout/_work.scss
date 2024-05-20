@@ -1,10 +1,21 @@
 .work__title {
-    margin-bottom: 50px;
+    
+   display: none;
+        @media screen and (min-width: 1200px) {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 
+  }
 }
 
 .work__list {
-    @include flex(30px, row, center);
+    display: none;
+        @media screen and (min-width: 1200px) {
+  @include flex(30px, row, center);
+
+  }
+   
    
 
 }
