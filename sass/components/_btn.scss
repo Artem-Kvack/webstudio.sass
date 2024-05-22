@@ -1,36 +1,50 @@
 .footer-form__btn {
-    width: 200px;
-    height: 50px;
-    color: #FFF;
-    border-radius: 4px;
-    background: $accent-color;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  border-radius: 4px;
+  background: $accent-color;
 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    /* 187.5% */
-    letter-spacing: 0.96px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.96px;
 }
 .hero__btn {
-    display: block;
-    width: 216px;
-    height: 50px;
-    margin: 0 auto;
-    color: white;
-    background-color: $accent-color;
-   
-    border: none;
-    font-family: Roboto;
-    font-size: 16px;
-    
-    letter-spacing: 0.96px;
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  color: white;
+  background-color: $accent-color;
+
+  border: none;
+  font-family: Roboto;
+  font-size: 16px;
+
+  letter-spacing: 0.96px;
+    margin-left: 140px;
+        margin-right: 140px;
+              @media screen  and (min-width: 768px) {
+      margin-left: 284px;
+        margin-right: 284px;
+          width: 200px;
+  height: 50px;
+    }
+     @media screen  and (min-width: 1440px) {
+           margin-left: 692px;
+        margin-right: 692px;
+          width: 216px;
+  height: 50px;
+    }
 }
 
 .hero__btn:hover,
 .hero__btn:focus {
-    background-color: #1581d9;
+  background-color: #1581d9;
 }

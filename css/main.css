@@ -131,7 +131,7 @@ img {
 .footer-form__btn {
   width: 200px;
   height: 50px;
-  color: #FFF;
+  color: #fff;
   border-radius: 4px;
   background: #2196F3;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -148,7 +148,7 @@ img {
 
 .hero__btn {
   display: block;
-  width: 216px;
+  width: 200px;
   height: 50px;
   margin: 0 auto;
   color: white;
@@ -157,6 +157,24 @@ img {
   font-family: Roboto;
   font-size: 16px;
   letter-spacing: 0.96px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+@media screen and (min-width: 768px) {
+  .hero__btn {
+    margin-left: 284px;
+    margin-right: 284px;
+    width: 200px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__btn {
+    margin-left: 692px;
+    margin-right: 692px;
+    width: 216px;
+    height: 50px;
+  }
 }
 
 .hero__btn:hover,
@@ -349,7 +367,7 @@ img {
   color: #FFF;
   text-align: center;
   font-family: Roboto;
-  font-size: 44px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 900;
   line-height: 60px;
@@ -357,6 +375,21 @@ img {
   letter-spacing: 2.64px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+@media screen and (min-width: 768px) {
+  .hero-section__title {
+    margin-left: 204px;
+    margin-right: 204px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-section__title {
+    margin-left: 452px;
+    margin-right: 452px;
+    font-size: 44px;
+  }
 }
 
 .backdrop {
@@ -623,13 +656,23 @@ img {
 }
 
 .advantages-item-title {
-  padding-bottom: 15px;
   color: #212121;
   text-transform: capitalize;
   font-family: Roboto;
   font-size: 14px;
+  text-align: center;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .advantages-item-title {
+    text-align: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantages-item-title {
+    text-align: none;
+  }
 }
 
 .advantages-list-text {
@@ -645,7 +688,7 @@ img {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  width: 270px;
+  width: 100%;
   height: 120px;
   background-repeat: no-repeat;
 }
@@ -795,6 +838,18 @@ img {
           flex-direction: row;
   letter-spacing: 0.48px;
 }
+@media screen and (min-width: 768px) {
+  .workers {
+    -ms-flex-preferred-size: calc((100% - 30px * (2 - 1)) / 2);
+        flex-basis: calc((100% - 30px * (2 - 1)) / 2);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .workers {
+    -ms-flex-preferred-size: calc((100% - 30px * (4 - 1)) / 4);
+        flex-basis: calc((100% - 30px * (4 - 1)) / 4);
+  }
+}
 
 .workers__soc-icon {
   fill: #757575;
@@ -868,8 +923,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-preferred-size: calc((100% - 30px * (2 - 1)) / 2);
-        flex-basis: calc((100% - 30px * (2 - 1)) / 2);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -883,8 +936,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-preferred-size: calc((100% - 30px * (4 - 1)) / 4);
-        flex-basis: calc((100% - 30px * (4 - 1)) / 4);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
