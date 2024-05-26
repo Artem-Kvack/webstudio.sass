@@ -11,16 +11,21 @@
 }
 
 .clients {
-
+  @include flex-basis(10px, 2);
+ 
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .client__list {
-    @include flex(30px, row, center);
+      @include flex(10px, column, center);
+   
+         
     
 }
-
+.clients__logo-item {
+    
+}
 .clients__icon-logo {
     fill: $add-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

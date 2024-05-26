@@ -1012,6 +1012,8 @@ img {
 }
 
 .client__list {
+  width: 480px;
+  height: 399px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1021,11 +1023,16 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 30px;
+  gap: 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.clients__logo-item {
+  -ms-flex-preferred-size: calc((100% - 10px * (2 - 1)) / 2);
+      flex-basis: calc((100% - 10px * (2 - 1)) / 2);
 }
 
 .clients__icon-logo {
