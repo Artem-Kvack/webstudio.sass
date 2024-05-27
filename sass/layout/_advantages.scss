@@ -6,8 +6,8 @@
 }
 
 .advantages__list {
-    @include flex(30px,column, center);
-       @media screen and (min-width: 768px) {
+      @include flex(30px,column, center); 
+    @media screen and (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
   }

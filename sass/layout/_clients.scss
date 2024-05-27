@@ -12,14 +12,21 @@
 
 .clients {
   @include flex-basis(10px, 2);
- 
+ flex-wrap: wrap;
     padding-top: 94px;
     padding-bottom: 94px;
+           @media screen and (min-width: 768px) {
+    @include flex-basis(10px, 3);
+  }
+     @media screen and (min-width: 1200px) {
+    @include flex-basis(10px, 6);
+  }
 }
 
 .client__list {
-      @include flex(10px, column, center);
-   
+    
+     @include flex(10px,column, center); 
+    
          
     
 }

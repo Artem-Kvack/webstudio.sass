@@ -1007,13 +1007,27 @@ img {
 }
 
 .clients {
+  -ms-flex-preferred-size: calc((100% - 10px * (2 - 1)) / 2);
+      flex-basis: calc((100% - 10px * (2 - 1)) / 2);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 768px) {
+  .clients {
+    -ms-flex-preferred-size: calc((100% - 10px * (3 - 1)) / 3);
+        flex-basis: calc((100% - 10px * (3 - 1)) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    -ms-flex-preferred-size: calc((100% - 10px * (6 - 1)) / 6);
+        flex-basis: calc((100% - 10px * (6 - 1)) / 6);
+  }
+}
 
 .client__list {
-  width: 480px;
-  height: 399px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1024,15 +1038,10 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 10px;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.clients__logo-item {
-  -ms-flex-preferred-size: calc((100% - 10px * (2 - 1)) / 2);
-      flex-basis: calc((100% - 10px * (2 - 1)) / 2);
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .clients__icon-logo {
@@ -1239,6 +1248,10 @@ img {
 
 .footer-input-svg {
   fill: #FFF;
+}
+
+.footer-contacts {
+  display: block;
 }
 
 .market {
