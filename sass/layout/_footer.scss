@@ -17,9 +17,13 @@
 
 .footer .container {
     @include flex(70px, row, center);
+    flex-basis: 100%;
         @media screen and (min-width: 480px) {
     min-width: 480px;
-  }
+@include flex-basis(30px, 2);
+flex-wrap: wrap;
+        
+      }
   @media screen and (min-width: 768px) {
     min-width: 768px;
   }
@@ -58,7 +62,7 @@
 
 .footer-soc-links__title {
     color: #FFF;
-
+margin-left: 170px;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -66,6 +70,12 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 60px;
+         @media screen and (min-width: 768px) {
+   margin-left: 50px;
+    margin-top: 20px;
+  }
 }
 
 .svg-address-list {
@@ -89,7 +99,7 @@
 
 .footer-input-title {
     color: #FFF;
-
+    margin-left: 140px;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -97,24 +107,37 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+            @media screen and (min-width: 768px) {
+   margin-left: 300px;
+    margin-bottom: none;
+  }
+              @media screen and (min-width: 1600px) {
+    margin-left: 100px;
+    
+  }
 }
 
 .footer-input {
     width: 358px;
     height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 @include border(1px, rgba(255, 255, 255, 0.30));
     border-radius: 4px;
     background: rgba(33, 150, 243, 0.00);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        @media screen and (min-width: 480px) {
-    min-width: 480px;
-  }
+  
   @media screen and (min-width: 768px) {
-    min-width: 768px;
+  
+      width: 450px;
+    height: 50px;
+
   }
   @media screen and (min-width: 1600px) {
-    width: 1600px;
+    width: 350px;
+    height: 50px;
   }
 
 }
@@ -129,4 +152,14 @@
 .footer-contacts {
   display: block;
   
+}
+.join-list {
+  display: block;
+    @media screen and (min-width: 768px) {
+   display: flex;
+  }
+     @media screen and (min-width: 1600px) {
+   display: flex;
+
+     }
 }

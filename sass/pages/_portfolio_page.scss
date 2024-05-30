@@ -17,6 +17,7 @@
     @include flex(30px, row, center);
  flex-wrap: wrap;
   margin-top: 50px;
+ 
 }
 
 .market-list-item {
@@ -25,7 +26,18 @@
     @include border(1px, #EEE);
    flex-basis: calc((100% - 60px)/3);
 }
-
+.ad-container {
+   flex-basis: 100%;
+      @media screen and (min-width:480px) {
+        @include flex-basis(30px, 1);
+  }
+    @media screen and (min-width:768px) {
+        @include flex-basis(30px, 2);
+  }
+     @media screen and (min-width:1600px) {
+        @include flex-basis(30px, 3);
+  }
+}
 .project-overlay {
     padding-left: 24px;
     padding-top: 63px;
